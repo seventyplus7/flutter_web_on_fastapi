@@ -18,5 +18,5 @@ $ uvicorn main:app --reload
 
 ## how to serve a Flutter app in FastAPI
 1. Copy the flutter build folder into the FastAPI project
-2. The in your FastAPI code, mount the build folder as a StaticFile
+2. Then in your FastAPI code, mount the build folder as a [StaticFile](https://fastapi.tiangolo.com/tutorial/static-files/). 
 3. You might need to change the base href value of index.html
